@@ -37,7 +37,10 @@ jobs:
         with:
           name: homework
           path: math-homework.txt
-
+      - uses: GuillaumeFalourd/wait-sleep-action@v1
+        with:
+          time: '60' # for 60 seconds
+        
 
   job_3:
     name: Display results
