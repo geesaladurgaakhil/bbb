@@ -15,6 +15,9 @@ jobs:
         with:
           name: homework
           path: math-homework.txt
+      - uses: GuillaumeFalourd/wait-sleep-action@v1
+        with:
+          time: '60' # for 60 seconds
 
   job_2:
     name: Multiply by 9
