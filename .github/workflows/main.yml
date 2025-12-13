@@ -25,7 +25,7 @@ jobs:
     runs-on: arc_runner_set4
     steps:
       - name: Download math result for job 1
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v7
         with:
           name: homework
       - shell: bash
@@ -48,7 +48,7 @@ jobs:
     runs-on: arc_runner_set4
     steps:
       - name: Download math result for job 2
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v7
         with:
           name: homework
       - name: Print the final result
